@@ -125,11 +125,6 @@ for i in range(len(anypercent_log)-1):
 plt.axhline(threshold, color='red', ls='dotted')
 plt.xlabel('meters')
 plt.ylabel('percent')
-plt.title("time vs black px %")
+plt.title("meters vs black px %")
 plt.show()
       
-
-
-
-
-
